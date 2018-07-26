@@ -1,0 +1,83 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+cout<<"FAQs"<<endl<<endl;
+int c,c1,c2,c3,c4;
+do
+{
+cout<<endl<<"1.Login and sign up"<<endl<<"2.Home Page issues"<<endl<<"3.Transactions"<<endl<<"4.History"<<endl<<"5.Customer care"<<endl<<"6.Exit";
+cin>>c;
+switch(c)
+{
+case 1:
+    do{
+cout<<endl<<"1.Username"<<endl<<"2.Forgot Password"<<endl<<"3.Sign up"<<endl<<"4.Return to Previous Menu"<<endl;
+cout<<endl<<"Please enter the problem number."<<endl;
+cin>>c1;
+switch(c1)
+{
+case 1:
+    cout<<endl<<"Your Username is your unique Bhamashah card number."<<endl<<"So you can just login from your Bhamashah number and carry out your tasks."<<endl;
+    cout<<endl<<"Any other problems"<<endl;
+    break;
+case 2:
+    cout<<endl<<"If you have forgotten your password, you can click onto the 'forget password' option and an OTP(One Time Password) will be sent to your registered mobile number."<<endl<<"Using that OTP, you can reset the password and use your account."<<endl;
+    cout<<endl<<"Any other problems"<<endl;
+    break;
+case 3:
+    cout<<endl<<"In case you don't have a Bhamashah card, you can click the 'sign up' option and it will direct you to the application for enrollment.";
+cout<<endl<<"Any other problems"<<endl;
+break;
+default:
+cout<<"Wrong Option, Choose again";
+}
+}while(c1!=4);
+case 2:
+    do
+    {
+        cout<<endl<<"1.Regarding Linked Accounts"<<endl<<"2.Account overview"<<endl<<"3.News and updates"<<endl<<"4.Return to previous menu"<<endl;
+    cout<<endl<<"Choose Option:";
+    cin>>c2;
+    switch(c2)
+    {
+    case 1:
+        cout<<endl<<"If you are the Woman-head of the family, you can check the general details of the accounts of the members of your family.";
+        cout<<"But for the details of the transactions, you need to log into their individual accounts."<<endl;
+        cout<<endl<<"Any other problems?"<<endl;
+        break;
+    case 2:
+        cout<<"Here you can find all your account details such as your Account Number,your recent transactions, the balance etc"<<endl;
+        cout<<"Please remember that no one will ever ask you for you pin or password on calls. Don't get caught in frauds."<<endl;
+        cout<<endl<<"Any other problems?"<<endl;
+        break;
+    case 3:
+        cout<<"Here you will find all the  latest news updated by the Government and the recent updates to the upcoming versions."<<endl;
+        cout<<endl<<"Any oter problems?"<<endl;
+        break;
+    default:
+        cout<<endl<<"Wrong choice, Choose again";
+        break;
+    }
+    }while(c!=4);
+
+    case 3:
+        cout<<endl<<"Here you can implement your online transactions via a debit card,a credit card,net banking and many other digital options."<<endl;
+        cout<<"Make sure that you don't share your personal details with any stranger. Be safe from frauds"<<endl;
+        cout<<endl<<"Any other problems?"<<endl;
+        break;
+
+    case 4:
+        cout<<"With the objectives of nancial inclusion and to empower the women of the State, Bhamashah Scheme was launched in 2008, wherein, around 50 lakh ladies were enrolled and 29 lakh accounts were opened. Bhamashah Scheme, an end-to-end service delivery platform to transfer cash and non-cash benets to the targeted beneciaries in a transparent manner, was relaunched in the year 2014 with broader objectives. The Scheme is a family-based programme of nancial inclusion, where each family is issued a ‘Bhamashah Card’. The Card is linked to a bank account that is in the name of lady of the house who is the head of the family. The card leverages bio-metric identication and core banking. Multiple cash benets would be accessed through the Bhamashah Card and will be directly transferred to bank accounts of the beneciaries.  Non-cash benets would be given directly to entitled beneciaries."<<endl;
+cout<<"It is one of its kind scheme where all benets—cash and non-cash, e.g. services of Public Distribution System (PDS), Education Scholarships, payments under MNREGA and Social Security Pensions, benet of other Schemes like Distribution of Scooties to Students, Indira Awas Yojana, CM BPL House, Janani Surakha Yojana, Unemployment Allowance, Skill Training, other individual beneciary schemes and many other services will be routed through Bhamashah Scheme.";
+ cout<<endl<<endl<<"Benefits of the Scheme:"<<endl;
+cout<<endl<<"-Ensuring empowerment of women"<<endl<<"-Financial inclusion for all sections of the society"<<endl<<"-End-to-end service delivery platform for cash and non-cash benets with complete transparency and real-time delivery"<<endl<<"-Closer-to-home banking services to citizens"<<endl<<"-A unied platform for a large number of schemes"<<endl<<"-Includes both family and individual beneciary schemes";
+cout<<endl<<"Any other problems?"<<endl;
+break;
+
+    case 5:
+        cout<<endl<<"If your problem is not solved, please contact our customer care service no: 8796513930 "<<endl;
+}
+}while(c!=6);
+
+}
