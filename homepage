@@ -1,4 +1,4 @@
-package com.example.akshayupadhyay.vp;
+package com.example.vp;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
